@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_no_jpro_rootest_domain_Timelisterad" object="${timelisterad}" path="/timelisterads" z="+QqWxCkUz55hTYKUvSUfm2F/ncE=">
+        <field:display calendar="true" dateTimePattern="${timelisterad_dato_date_format}" field="dato" id="s_no_jpro_rootest_domain_Timelisterad_dato" object="${timelisterad}" z="MdO0jE3C7p7nzrRv+KNb+RVTF/w="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="timelisterads/list">
+        <put-attribute name="body" value="/WEB-INF/views/timelisterads/list.jspx"/>
+    </definition>
+<definition extends="default" name="timelisterads/show">
+        <put-attribute name="body" value="/WEB-INF/views/timelisterads/show.jspx"/>
+    </definition>
+<definition extends="default" name="timelisterads/create">
+        <put-attribute name="body" value="/WEB-INF/views/timelisterads/create.jspx"/>
+    </definition>
+<definition extends="default" name="timelisterads/update">
+        <put-attribute name="body" value="/WEB-INF/views/timelisterads/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_no_jpro_rootest_domain_Kunde" modelAttribute="kunde" path="/kundes" z="6qoFDFK5UQDlMZ5RjyR51HvsRdg=">
+        
+        <field:input field="navn" id="c_no_jpro_rootest_domain_Kunde_navn" z="SytnZwhFApbkYuct+sMyBFQZPzk="/>
+        <field:input field="adresse" id="c_no_jpro_rootest_domain_Kunde_adresse" z="FyrGhatHlIrJMaGUjeHzH9rSmxI="/>
+        <field:input field="postnr" id="c_no_jpro_rootest_domain_Kunde_postnr" z="Fl65UVaKo2TZAKFaiy1CciO3+5E="/>
+        <field:input field="poststed" id="c_no_jpro_rootest_domain_Kunde_poststed" z="8Zx7rsBM0v6p3eg/LwNlwhPMuMY="/>
+        <field:input field="epost" id="c_no_jpro_rootest_domain_Kunde_epost" z="uOlDE5DaHv0LXrydX+oBbJj1zII="/>
+        <field:input field="kontaktnavn" id="c_no_jpro_rootest_domain_Kunde_kontaktnavn" z="cdJWtVq6y6QhOGpX2uNKc98iXDE="/>
+        <field:input field="kontakttelefon" id="c_no_jpro_rootest_domain_Kunde_kontakttelefon" z="14xWgUbbmTWpLFd26MYp+35ievk="/>
+        <field:input field="kontaktepost" id="c_no_jpro_rootest_domain_Kunde_kontaktepost" z="qYegV4xMCwzOUN71zux/co1AaWM="/>
+    </form:update>
+</div>

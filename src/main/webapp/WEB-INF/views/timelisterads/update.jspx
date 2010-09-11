@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_no_jpro_rootest_domain_Timelisterad" modelAttribute="timelisterad" path="/timelisterads" z="Z8rUZ8OW0lzxDXn1LWaqfDG9w9U=">
+        <field:datetime dateTimePattern="${timelisterad_dato_date_format}" field="dato" id="c_no_jpro_rootest_domain_Timelisterad_dato" z="qGhT3P09VweJoKBdR5WsW8wvoD4="/>
+    </form:update>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_no_jpro_rootest_domain_Kunde" object="${kunde}" path="/kundes" z="IXzaniXnEjVWLrYai0excViXvAI=">
+        
+        <field:display field="navn" id="s_no_jpro_rootest_domain_Kunde_navn" object="${kunde}" z="Zz3GRW1tX089RX/Y2uICZ6sE8D8="/>
+        <field:display field="adresse" id="s_no_jpro_rootest_domain_Kunde_adresse" object="${kunde}" z="U/aZWYALM8sSmqbvP+6YSeR/jPI="/>
+        <field:display field="postnr" id="s_no_jpro_rootest_domain_Kunde_postnr" object="${kunde}" z="GBpE6m/ZV4Kpp1m0BrL5xKQ/ANo="/>
+        <field:display field="poststed" id="s_no_jpro_rootest_domain_Kunde_poststed" object="${kunde}" z="iKCqjYqw9Cdbv3yWMHcNhgF2gKs="/>
+        <field:display field="epost" id="s_no_jpro_rootest_domain_Kunde_epost" object="${kunde}" z="RYJBmYAL5l7m4i87csnIboy/BEE="/>
+        <field:display field="kontaktnavn" id="s_no_jpro_rootest_domain_Kunde_kontaktnavn" object="${kunde}" z="nnXBwx61XG9l9YOBjjqpYJ7N0+o="/>
+        <field:display field="kontakttelefon" id="s_no_jpro_rootest_domain_Kunde_kontakttelefon" object="${kunde}" z="XPSz+TsqSP3NekG4l13nFJxIgW4="/>
+        <field:display field="kontaktepost" id="s_no_jpro_rootest_domain_Kunde_kontaktepost" object="${kunde}" z="RVvSsQpJXHw0UKIKeyVu9e1rxd0="/>
+    </page:show>
+</div>

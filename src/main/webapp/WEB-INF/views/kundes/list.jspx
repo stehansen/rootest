@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_no_jpro_rootest_domain_Kunde" items="${kundes}" z="yRCCxRjM+PE4mzpqh8JjssYvOh8=">
+        <table:table data="${kundes}" id="l_no_jpro_rootest_domain_Kunde" path="/kundes" z="CCWcY2yd1zu02T3troJHMVi3RhI=">
+            
+            <table:column id="c_no_jpro_rootest_domain_Kunde_navn" property="navn" z="fqqZKj8qROaHgLMV8p+D7GvflDg="/>
+            <table:column id="c_no_jpro_rootest_domain_Kunde_adresse" property="adresse" z="R7BdsszEUDRJp0ug9FlyNnZ/Fro="/>
+            <table:column id="c_no_jpro_rootest_domain_Kunde_postnr" property="postnr" z="TZa+9BEIoneJz8drYw+gI41QVXw="/>
+            <table:column id="c_no_jpro_rootest_domain_Kunde_poststed" property="poststed" z="TI5zf5/lag7T1xW8UgVwiI134lM="/>
+            <table:column id="c_no_jpro_rootest_domain_Kunde_epost" property="epost" z="rQOuqJRryg2owUAMAKAFyth+YEg="/>
+        <table:column id="c_no_jpro_rootest_domain_Kunde_kontaktnavn" property="kontaktnavn" z="eF7ecXU8VGac4NsxrIfthRaICd0="/>
+        </table:table>
+    </page:list>
+</div>

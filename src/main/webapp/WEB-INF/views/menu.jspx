@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+	<jsp:output omit-xml-declaration="yes"/>
+
+<menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_timelisterad" z="8ywrAufats9V/oNnDTxmOz5MFr0=">
+            <menu:item id="i_timelisterad_new" messageCode="global_menu_new" url="/timelisterads?form" z="OMPwq7df+q7z4eZcfgphx7i3KxQ="/>
+        <menu:item id="i_timelisterad_list" messageCode="global_menu_list" url="/timelisterads?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="pvxlVQ6Jhf9DMKw3lMv05MrxLR0="/>
+        </menu:category>
+    <menu:category id="c_kunde" z="1p/VQOZdpgKNsx8u3wzMiUiZCOI=">
+            <menu:item id="i_kunde_new" messageCode="global_menu_new" url="/kundes?form" z="+BPOI4CoX3wd6jHjn3DKcfb8WLo="/>
+        <menu:item id="i_kunde_list" messageCode="global_menu_list" url="/kundes?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="asA+IObS4icKVT+p78RPV2HsZEg="/>
+        </menu:category>
+    </menu:menu>
+</div>

@@ -1,0 +1,53 @@
+// Spring Roo 1.1.0.M3 [rev e66e029] log opened at 2010-09-11 17:40:00
+hint
+project --topLevelPackage no.jpro.rootest
+hint
+persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+hint
+entity --class ~.domain.Person
+entity --class ~.domain.Faktura
+entity --class ~.domain.Timeliste
+entity --class ~.domain.Aktivitet
+entity --class ~.domain.Kontrakt
+entity --class ~.domain.Kunde
+hint
+field string --fieldName etternavn 
+// [failed] entity --class ~.domain.Person
+help
+field string --fieldName etternavn
+field string --fieldName fornavn
+field string --fieldName epost
+// [failed] entity --class ~.domain.Kunde
+field string --fieldName navn
+field string --fieldName adresse
+field string --fieldName postnr
+field string --fieldName poststed
+field string --fieldName epost
+field string --fieldName kontaktnavn
+field string --fieldName kontakttelefon
+field string --fieldName kontaktepost
+// [failed] entity --class ~.domain.Faktura
+field date --fieldName forfallsdato --type java.util.Calendar
+field reference --fieldName kunde --type ~.domain.Kunde
+field set --fieldName timelister --element ~.domain.Timeliste
+field string --fieldName periode
+// [failed] entity --class ~.domain.Timeliste
+entity --class  ~.domain.Timedag
+field date --fieldName dato --type java.util.Calendar
+help
+hint
+// [failed] entity --class ~.domain.Timeliste
+// [failed] entity --class ~.domain.Timelisterad
+help controllers
+hint controllers
+controller scaffold --class ~.controller.KundeController
+// [failed] entity --class ~.domain.Kunde
+controller scaffold --class ~.controller.KundeController
+hint
+perform package
+hint
+help perform
+help perform package
+hint
+hint topics
+hint test

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_no_jpro_rootest_domain_Timelisterad" items="${timelisterads}" z="26rtfI8zYbSGd8K4lfKC/67Tl0U=">
+        <table:table data="${timelisterads}" id="l_no_jpro_rootest_domain_Timelisterad" path="/timelisterads" z="2Cyvi050Jn68g/p+pR7dOwzQtuE=">
+            <table:column id="c_no_jpro_rootest_domain_Timelisterad_dato" property="dato" z="ls4go1uSYHhvnrpDoLlufphCSn0="/>
+        </table:table>
+    </page:list>
+</div>
